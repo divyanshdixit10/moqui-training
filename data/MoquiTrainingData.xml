@@ -1,0 +1,7 @@
+<entity-facade-xml >
+    <MoquiTraining trainingId="1" trainingName="Advanced Java Programming" trainingDate="2025-01-15" trainingPrice="199.99" trainingDuration="30"/>
+    <MoquiTraining trainingId="2" trainingName="Introduction to Data Science" trainingDate="2025-02-10" trainingPrice="249.99" trainingDuration="40"/>
+    <MoquiTraining trainingId="3" trainingName="Web Development Basics" trainingDate="2025-03-05" trainingPrice="149.99" trainingDuration="20"/>
+    <MoquiTraining trainingId="4" trainingName="Cloud Computing Essentials" trainingDate="2025-04-18" trainingPrice="299.99" trainingDuration="50"/>
+    <MoquiTraining trainingId="5" trainingName="Cybersecurity Fundamentals" trainingDate="2025-05-25" trainingPrice="179.99" trainingDuration="35"/>
+</entity-facade-xml>
