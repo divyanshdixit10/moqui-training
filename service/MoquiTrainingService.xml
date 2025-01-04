@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-3.xsd">
+
+    <service verb="create" noun="MoquiTraining" type="entity-auto">
+        <description>Generate records in the MoquiTraining entity automatically</description>
+
+
+        <in-parameters>
+            <parameter name="trainingName" type="String" required="true"  >
+                <description>Name of the training</description>
+            </parameter>
+            <parameter name="trainingDate" required="true" type="Timestamp">
+                <description>Date of the training (must follow MM/dd/yyyy format)</description>
+            </parameter>
+        </in-parameters>
+
+        <out-parameters>
+            <parameter name="trainingId">
+                <description>The ID of the newly created training record</description>
+            </parameter>
+        </out-parameters>
+    </service>
+
+</services>
