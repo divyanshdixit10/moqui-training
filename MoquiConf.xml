@@ -1,4 +1,4 @@
 <entity-facade>
-    <entity-group name="default" entity-location="component://moqui-training/entities"/>
+    <entity-group name="default" entity-location="component://moqui-training/entity"/>
 
 </entity-facade>
