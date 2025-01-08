@@ -3,6 +3,7 @@
     <service verb="store" type="inline" noun="MoquiTraining">
         <in-parameters>
             <auto-parameters include="all" />
+            <parameter name="name" type="string"/>
         </in-parameters>
         <out-parameters>
             <auto-parameters include="pk" required="true" />
